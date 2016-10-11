@@ -25,20 +25,20 @@
   "_aboutPage": {
     "_items": [
       {
-        "title": "The Open Data Institute",
-        "description": "<p>Expert knowledge and content development provided by the <span>Open Data Institute</span>.</p>\n",
         "_graphic": {
-          "alt": "The Open Data Institute",
-          "src": "http://accelerate.theodi.org/en/module1/adapt/css/assets/odi-logo.png"
-        }
+          "src": "http://accelerate.theodi.org/en/module1/adapt/css/assets/odi-logo.png",
+          "alt": "The Open Data Institute"
+        },
+        "description": "<p>Expert knowledge and content development provided by the <span>Open Data Institute</span>.</p>\n",
+        "title": "The Open Data Institute"
       },
       {
-        "title": "Adapt eLearning",
-        "description": "<p>Open source learning platform developed by <span>Adapt elearning</span>.</p>\n",
         "_graphic": {
-          "alt": "Adapt eLearning",
-          "src": "http://accelerate.theodi.org/en/module1/adapt/css/assets/adapt.png"
-        }
+          "src": "http://accelerate.theodi.org/en/module1/adapt/css/assets/adapt.png",
+          "alt": "Adapt eLearning"
+        },
+        "description": "<p>Open source learning platform developed by <span>Adapt elearning</span>.</p>\n",
+        "title": "Adapt eLearning"
       }
     ]
   },
@@ -47,17 +47,17 @@
   },
   "build": {
     "includes": [
-      "adapt-theme-odi",
+      "adapt-theme-wbtz",
       "adapt-contrib-boxMenu",
-      "adapt-contrib-aboutPage",
-      "adapt-contrib-pageLevelProgress",
-      "adapt-contrib-tutor",
       "adapt-skillsFramework",
+      "adapt-contrib-tutor",
+      "adapt-contrib-pageLevelProgress",
+      "adapt-contrib-aboutPage",
       "adapt-contrib-text",
       "adapt-contrib-graphic",
       "adapt-contrib-narrative",
-      "adapt-contrib-accordion",
       "adapt-contrib-mcq",
+      "adapt-contrib-accordion",
       "adapt-contrib-media"
     ]
   }

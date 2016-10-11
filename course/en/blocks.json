@@ -66,7 +66,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 6,
-    "_classes": "inverted color-two",
+    "_classes": "inverted color-three",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -114,7 +114,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 10,
-    "_classes": "",
+    "_classes": "color-three",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -138,7 +138,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 12,
-    "_classes": "",
+    "_classes": "color-four",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -186,7 +186,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 16,
-    "_classes": "inverted color-one",
+    "_classes": "inverted color-four",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -198,7 +198,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 17,
-    "_classes": "",
+    "_classes": "color-one",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -210,7 +210,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 18,
-    "_classes": "",
+    "_classes": "color-three",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -258,7 +258,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 22,
-    "_classes": "section-banner inverted color-two",
+    "_classes": "section-banner inverted color-four",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -282,7 +282,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 24,
-    "_classes": "inverted color-four section-banner",
+    "_classes": "inverted color-one section-banner",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -306,7 +306,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 26,
-    "_classes": "",
+    "_classes": "color-four",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -318,7 +318,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 27,
-    "_classes": "",
+    "_classes": "color-two",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -330,7 +330,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 28,
-    "_classes": "",
+    "_classes": "color-one",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -378,7 +378,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 32,
-    "_classes": "inverted color-four",
+    "_classes": "inverted color-one",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -390,7 +390,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 33,
-    "_classes": "",
+    "_classes": "color-four",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -426,7 +426,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 36,
-    "_classes": "",
+    "_classes": "color-one",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -498,7 +498,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 42,
-    "_classes": "",
+    "_classes": "color-five",
     "body": "",
     "displayTitle": " ",
     "title": " "
@@ -534,7 +534,7 @@
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 45,
-    "_classes": "",
+    "_classes": "color-five",
     "body": "",
     "displayTitle": " ",
     "title": " "

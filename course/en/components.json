@@ -1,5 +1,22 @@
 [
   {
+    "_id": "57f7c9334d7b7e82691e3f0d",
+    "_layout": "right",
+    "_parentId": "57d923514d7b7e82691e3c5e",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
     "_id": "57ea72bc4d7b7e82691e3d48",
     "_layout": "left",
     "_parentId": "57d970924d7b7e82691e3ced",
@@ -97,11 +114,28 @@
     "instruction": ""
   },
   {
+    "_id": "57f7c8af4d7b7e82691e3f0c",
+    "_layout": "right",
+    "_parentId": "57d923304d7b7e82691e3c58",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
     "_id": "57d924ec4d7b7e82691e3c63",
     "_layout": "left",
     "_parentId": "57d923304d7b7e82691e3c58",
     "_type": "component",
-    "body": "<p>A common challenge&nbsp;in&nbsp;ensuring data quality is the incorrect use of spreadsheets. Data that is not adequately managed cannot answer fundamental questions, or be analysed or used. This can lead&nbsp;to incorrect decisions being made.&nbsp;</p>\n\n<p>In this module&nbsp;we look at how to effectively structure a spreadsheet for raw data collection. We will cover:</p>\n\n<ul>\n\t<li>Spreadsheet layouts</li>\n\t<li>Column titles&nbsp;</li>\n\t<li>Header&nbsp;rows and the freeze function</li>\n\t<li>Data types</li>\n</ul>\n\n<p>At the end of this module you can try out what you&#39;ve learnt on a spreadsheet.&nbsp;&nbsp;&nbsp;</p>\n",
+    "body": "<p>A common challenge&nbsp;in&nbsp;ensuring data quality is difficulties in the use of spreadsheets. When data is properly managed, it is much easier to answer&nbsp;fundamental questions and conduct analysis. Correctly managed data also ensures you aren&#39;t making decisions based on faulty evidence.</p>\n\n<p>In this module&nbsp;we look at how to effectively structure a spreadsheet for raw data collection. We will cover:</p>\n\n<ul>\n\t<li>Spreadsheet layouts</li>\n\t<li>Column titles&nbsp;</li>\n\t<li>Header&nbsp;rows and the freeze function</li>\n\t<li>Data types</li>\n</ul>\n\n<p>At the end of this module you can try out what you&#39;ve learnt on a spreadsheet.&nbsp;&nbsp;&nbsp;</p>\n",
     "displayTitle": "Organising data",
     "title": "Organising data",
     "_isAvailable": true,
@@ -112,29 +146,6 @@
       "_isEnabled": true
     },
     "instruction": ""
-  },
-  {
-    "_id": "57d924ef4d7b7e82691e3c64",
-    "_layout": "right",
-    "_parentId": "57d923304d7b7e82691e3c58",
-    "_type": "component",
-    "body": "",
-    "displayTitle": " ",
-    "title": " ",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/f64ad121fc8e0250264e5d5f00c90d78cd6271a0.png",
-      "small": "course/en/assets/f64ad121fc8e0250264e5d5f00c90d78cd6271a0.png",
-      "attribution": ""
-    }
   },
   {
     "_id": "57d9283f4d7b7e82691e3c69",
@@ -236,7 +247,7 @@
       },
       {
         "title": "Sheets and multiple sheets",
-        "body": "<p>Each sheet in a spreadsheet should&nbsp;<strong>only contain one table</strong>.</p>\n\n<p>Start your table at row 1, column 1 (top left corner).</p>\n\n<p>Do not add multiple tables starting in random places (like column L row 16).</p>\n\n<p>Avoid using multiple sheets unless it is absolutely necessary to collect multiple different datasets in one spreadsheet.&nbsp;</p>\n\n<p>For Example: If you are collecting a dataset of companies, add them all to a single sheet, do not divide them by type or location of company. You may end up with a sheet containing many thousands of rows, however it is easier to filter a single sheet than multiple sheets (covered in a later module).</p>\n",
+        "body": "<p>Each sheet in a spreadsheet should&nbsp;<strong>only contain one table</strong>.</p>\n\n<p>Start your table at row 1, column 1 (top left corner).</p>\n\n<p>Avoid adding multiple tables starting in different parts of the sheet&nbsp;(e.g. column L row 16).</p>\n\n<p>You should also avoid using multiple sheets unless it is&nbsp;necessary to collect multiple different datasets in one spreadsheet.&nbsp;</p>\n\n<p>For Example: If you are collecting a dataset of companies, add them all to a single sheet and avoid&nbsp;dividing&nbsp;them by type or location of company. You may end up with a sheet containing many thousands of rows, however it is easier to filter a single sheet than multiple sheets (covered in a later module).</p>\n",
         "_graphic": {
           "src": "course/en/assets/573957752a5406198646932aca0d3797f675cd7f.jpg",
           "alt": ""
@@ -250,7 +261,7 @@
     "_layout": "left",
     "_parentId": "57d928244d7b7e82691e3c67",
     "_type": "component",
-    "body": "<p>Column titles are critical to ensuring that data can be collected and used correctly. If those collecting or using your data don&#39;t understand its column titles, then it can be misinterpreted.&nbsp;</p>\n\n<p>Keep your column titles clear,&nbsp;concise and relevant to the dataset. Avoid using acronyms or other abbreviations, as they could be confusing.</p>\n\n<p>If you are collecting numbers in your data, don&#39;t forget to define the units and be&nbsp;as clear as possible in the description. For example:&nbsp;&quot;Cost ($millions)&quot; would be&nbsp;a clearer&nbsp;title than &quot;Cost&quot; or&nbsp;&quot;Cost ($m)&quot;.</p>\n\n<p>Ensure your column titles are only contained in a single row &ndash;&nbsp;preferably the first row in the spreadsheet, starting at A,1.</p>\n\n<p>&nbsp;</p>\n",
+    "body": "<p>Column titles are essential to ensuring that data can be collected and used correctly.</p>\n\n<p>Keep your column titles clear,&nbsp;concise and relevant to the dataset. Avoid using acronyms or other abbreviations, as they could be confusing.</p>\n\n<p>If you are collecting numbers in your data, don&#39;t forget to define the units and be&nbsp;as clear as possible in the description. For example:&nbsp;&quot;Cost ($millions)&quot; would be&nbsp;a clearer&nbsp;title than &quot;Cost&quot; or&nbsp;&quot;Cost ($m)&quot;.</p>\n\n<p>Ensure your column titles are only contained in a single row &ndash;&nbsp;preferably the first row in the spreadsheet, starting at A,1.</p>\n\n<p>&nbsp;</p>\n",
     "displayTitle": "Perfect column titles",
     "title": "Perfect column titles",
     "_isAvailable": true,
@@ -267,7 +278,7 @@
     "_layout": "right",
     "_parentId": "57d928414d7b7e82691e3c6a",
     "_type": "component",
-    "body": "<p>The freeze function is useful when viewing&nbsp;and managing&nbsp;large datasets.&nbsp;It&nbsp;&#39;freezes&#39; the column titles at the top of the page, so you can always&nbsp;check your value against the associated&nbsp;row and column, without scrolling back up to the top.&nbsp;</p>\n\n<p>This function can be&nbsp;accessed from the &#39;View&#39; menu of most spreadsheet applications.&nbsp;</p>\n",
+    "body": "<p>The freeze function is useful when viewing&nbsp;and managing&nbsp;large datasets.&nbsp;It &#39;freezes&#39; the column titles at the top of the page, so you can always&nbsp;check your value against the associated&nbsp;row and column, without scrolling back up to the top.&nbsp;</p>\n\n<p>This function can be&nbsp;accessed from the &#39;View&#39; menu of most spreadsheet applications.&nbsp;</p>\n",
     "displayTitle": "Header rows and the freeze function",
     "title": "Header rows and the freeze function",
     "_isAvailable": true,
@@ -278,62 +289,6 @@
       "_isEnabled": true
     },
     "instruction": ""
-  },
-  {
-    "_id": "57d929c34d7b7e82691e3c70",
-    "_layout": "left",
-    "_parentId": "57d928564d7b7e82691e3c6d",
-    "_type": "component",
-    "body": "<p>Values contained in a single column should be consistent in their types.&nbsp;For example, in a <em>First name</em>&nbsp;column you would use text, an <em>Age</em>&nbsp;column should contain numbers,&nbsp;a&nbsp;<em>Date of birth&nbsp;</em>should contain dates and so on.&nbsp;&nbsp;</p>\n\n<p>When collecting data, ensure that the correct data type is collected. In the majority of spreadsheet applications you can enforce the criteria of the data type per column by going to &#39;Validation&#39; from the &#39;Data&#39; button in the menu.</p>\n",
-    "displayTitle": "Data types",
-    "title": "Data types",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "accordion",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": "Explore each data type below",
-    "_items": [
-      {
-        "title": "Text/String",
-        "body": "<p>This&nbsp;data type is the most flexible and allows any combination of characters to make a sentence.</p>\n\n<p>e.g. <em>Emily,&nbsp;</em><em>2nd Royal Artillery</em></p>\n",
-        "_graphic": {
-          "alt": "",
-          "src": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Numbers",
-        "body": "<p>Numbers can include whole numbers (otherwise known as&nbsp;&#39;integers&#39;)&nbsp;such as&nbsp;<em>1, 12, 312</em>&nbsp;etc, or decimal numbers, such as&nbsp;<em>1.25, 32.789</em>.&nbsp;</p>\n",
-        "_graphic": {
-          "alt": "",
-          "src": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Date",
-        "body": "<p>Picking a consistent format for dates is crucial. You can choose how you want to display it&nbsp;(e.g. 2016-09-14) or use the one built into the spreadsheet application.&nbsp;</p>\n\n<p>As dates can be presented in many different ways, it&nbsp;is recommended that you validate them (check for correctness and consistency)&nbsp;on collection by going to &#39;Data&#39; in the menu bar and choosing &#39;Validation&#39;. However, this does not always work if the&nbsp;American form (MM/DD/YYYY) and&nbsp;British form (DD/MM/YYYY) are used interchangeably - it would be impossible to determine whether&nbsp;the date &#39;04/05/2016&#39; would mean the fourth of May, or fifth of April.&nbsp;</p>\n",
-        "_graphic": {
-          "alt": "",
-          "src": ""
-        },
-        "_classes": ""
-      },
-      {
-        "title": "Defined options",
-        "body": "<p>Data types can also be&nbsp;defined options, such as <em>true</em> or <em>false</em>, <em>yes</em> or <em>no</em>, or a limited range of text or numbers.&nbsp;</p>\n\n<p>You can use the validation function&nbsp;to ensure that a user can only enter valid values.&nbsp;</p>\n",
-        "_graphic": {
-          "alt": "",
-          "src": ""
-        },
-        "_classes": ""
-      }
-    ],
-    "_shouldCollapseItems": true
   },
   {
     "_id": "57d943514d7b7e82691e3c87",
@@ -586,7 +541,7 @@
     "_layout": "right",
     "_parentId": "57d9453b4d7b7e82691e3ca0",
     "_type": "component",
-    "body": "<p>Which of the column titles below is the&nbsp;most appropriate for the name of a healthcare facility?&nbsp;</p>\n",
+    "body": "<p>Which of the column titles below would be the&nbsp;most appropriate for the name of a healthcare facility?&nbsp;</p>\n",
     "displayTitle": "Which is the best column title?",
     "title": "Which is the best column title?",
     "_isAvailable": true,
@@ -723,9 +678,9 @@
     "_questionWeight": 1,
     "_selectable": 1,
     "_feedback": {
-      "correct": "<p>That&#39;s right!</p>\n\n<p>When recording data that is on a scale, it is best to use numbers which can be easily sorted. Using text such as <em>1 star</em>&nbsp;limits how the data can be used. Avoid custom datatypes that may be aesthetically pleasing but not easily sortable&nbsp;(e.g.&nbsp;★★★).&nbsp;</p>\n",
+      "correct": "<p>That&#39;s right!</p>\n\n<p>When recording data that is on a scale, it is best to use numbers which can be easily sorted. Using text such as <em>1 star</em>&nbsp;limits how the data can be used. Avoid custom datatypes that cannot be&nbsp;not easily sorted (e.g.&nbsp;★★★).&nbsp;</p>\n",
       "_incorrect": {
-        "final": "<p>Are you sure about that?</p>\n\n<p>When recording data that is on a scale, it is best to use numbers which can be easily sorted. Using text such as <em>1 star</em>&nbsp;limits how the data can be used. Avoid custom datatypes that may be aesthetically pleasing but not easily sortable&nbsp;(e.g.&nbsp;★★★).&nbsp;</p>\n",
+        "final": "<p>Are you sure about that?</p>\n\n<p>When recording data that is on a scale, it is best to use numbers which can be easily sorted. Using text such as <em>1 star</em>&nbsp;limits how the data can be used. Avoid custom datatypes that cannot be&nbsp;not easily sorted&nbsp;(e.g.&nbsp;★★★).&nbsp;</p>\n",
         "notFinal": ""
       },
       "_partlyCorrect": {
@@ -786,7 +741,7 @@
     "_layout": "left",
     "_parentId": "57d94b6a4d7b7e82691e3cca",
     "_type": "component",
-    "body": "<p>Test your knowledge by correcting a&nbsp;messy spreadsheet.&nbsp;</p>\n\n<p><a href=\"https://drive.google.com/open?id=0B1VBoooQ3X5jeEQycHo4OG4tclE\" target=\"_blank\">Download and open this spreadsheet</a> in your favourite spreadsheet application and see if you can fix the errors &nbsp;&ndash;&nbsp;relating to structure, content and&nbsp;layout &ndash; that you learnt about in this module.&nbsp;The spreadsheet contains two sheets of data from the same health facility star-ratings dataset, from different regions in Tanzania.</p>\n\n<p>In order to track your changes on the spreadsheet, you may want to open a new tab or make a new spreadsheet. Create&nbsp;new columns,&nbsp;then add the records from the existing datasets into your new spreadsheet.&nbsp;</p>\n\n<p>Once you are finished, submit the finished spreadsheet over email to your course coordinator, who will give you feedback.&nbsp;You will receive additional credit&nbsp;for the use of advanced functions, like data verification.&nbsp;</p>\n",
+    "body": "<p>You can test what you have learned in this module&nbsp;by correcting a&nbsp;messy spreadsheet.&nbsp;</p>\n\n<p><a href=\"https://drive.google.com/open?id=0B1VBoooQ3X5jeEQycHo4OG4tclE\" target=\"_blank\">Download and open this spreadsheet</a> in your favourite spreadsheet application. Then&nbsp;see if you can fix the errors &nbsp;&ndash;&nbsp;relating to structure, content and&nbsp;layout &ndash; that you learnt about in this module.&nbsp;The spreadsheet contains two sheets of data from the same health facility star-ratings dataset,&nbsp;from different regions in Tanzania.</p>\n\n<p>In order to track your changes on the spreadsheet, you may want to open a new tab or make a new spreadsheet. Create&nbsp;new columns,&nbsp;then add the records from the existing datasets into your new spreadsheet.&nbsp;</p>\n\n<p>Once you are finished, submit the finished spreadsheet over email to your course coordinator, who will give you feedback.&nbsp;You can receive additional credit&nbsp;for the use of advanced functions, like data verification.&nbsp;</p>\n",
     "displayTitle": "Test your spreadsheet skills",
     "title": "Test your spreadsheet skills",
     "_isAvailable": true,
@@ -799,36 +754,13 @@
     "instruction": ""
   },
   {
-    "_id": "57d942aa4d7b7e82691e3c7f",
-    "_layout": "right",
-    "_parentId": "57d9233c4d7b7e82691e3c5b",
-    "_type": "component",
-    "body": "",
-    "displayTitle": " ",
-    "title": " ",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/f64ad121fc8e0250264e5d5f00c90d78cd6271a0.png",
-      "small": "course/en/assets/f64ad121fc8e0250264e5d5f00c90d78cd6271a0.png",
-      "attribution": ""
-    }
-  },
-  {
     "_id": "57d942a74d7b7e82691e3c7e",
     "_layout": "left",
     "_parentId": "57d9233c4d7b7e82691e3c5b",
     "_type": "component",
     "body": "<p>Once your data is nicely organised, we can now begin to filter and analyse the data.</p>\n\n<p>In this module we will learn how to:</p>\n\n<ul>\n\t<li>Sort and filter&nbsp;data in a spreadsheet</li>\n\t<li>Apply&nbsp;formula to generate simple statistics</li>\n\t<li>Create a number of pivot tables</li>\n\t<li>Create a number of summary graphs</li>\n</ul>\n\n<p>To prepare you for this exercise you will need <a href=\"https://drive.google.com/open?id=0B1VBoooQ3X5jT0RSOVk3SnJuWlU\" target=\"_blank\">this spreadsheet</a>. Note that it has two sheets;&nbsp;the first tab holds the data,&nbsp;and the second tab called &#39;Statistics&#39; will&nbsp;be used when we look at formula.&nbsp;</p>\n",
-    "displayTitle": "Filtering and analysing data (part 1)",
-    "title": "Filtering and analysing data (part 1)",
+    "displayTitle": "Filtering and analysing data",
+    "title": "Filtering and analysing data",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1444,7 +1376,7 @@
     "_layout": "left",
     "_parentId": "57d923514d7b7e82691e3c5e",
     "_type": "component",
-    "body": "<p>One of the biggest challenges that people face when working with any data is&nbsp;errors. Often errors can creep into datasets when&nbsp;the data changes after first publication. In other cases, errors can be the result of human mistakes&nbsp;like mistyping or incorrect abbreviations.</p>\n\n<p>Errors in data are inevitable. However, there are a couple of techniques that can help reduce their number dramatically.&nbsp;</p>\n\n<p>Data validation tools can be used at the point of collection to ensure that only&nbsp;valid data is entered. However, if&nbsp;the validator is changed from year to year, then it&nbsp;would be better to clean and align the data before use.&nbsp;</p>\n\n<p>This module introduces the following key topics:</p>\n\n<ul>\n\t<li>Validating data on collection</li>\n\t<li>Cleaning data post-collection</li>\n</ul>\n",
+    "body": "<p>One of the biggest challenges that people face when working with any data is&nbsp;errors. Errors can be the result of human mistakes&nbsp;like mistyping or incorrect abbreviations.&nbsp;Errors can also creep into datasets when&nbsp;the data changes after first publication.</p>\n\n<p>Errors in data, as in any human activity, are unavoidable. However, there are a couple of techniques that can help reduce their number dramatically.&nbsp;</p>\n\n<p>Data validation tools can be used at the point of collection to ensure that only&nbsp;valid data is entered. However, if&nbsp;the validator is changed from year to year, then it&nbsp;would be better to clean and align the data before use.&nbsp;</p>\n\n<p>This module introduces the following key topics:</p>\n\n<ul>\n\t<li>Validating data on collection</li>\n\t<li>Cleaning data post-collection</li>\n</ul>\n",
     "displayTitle": "Validating and cleaning data",
     "title": "Validating and cleaning data",
     "_isAvailable": true,
@@ -1455,29 +1387,6 @@
       "_isEnabled": true
     },
     "instruction": ""
-  },
-  {
-    "_id": "57d942b34d7b7e82691e3c81",
-    "_layout": "right",
-    "_parentId": "57d923514d7b7e82691e3c5e",
-    "_type": "component",
-    "body": "",
-    "displayTitle": " ",
-    "title": " ",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/f64ad121fc8e0250264e5d5f00c90d78cd6271a0.png",
-      "small": "course/en/assets/f64ad121fc8e0250264e5d5f00c90d78cd6271a0.png",
-      "attribution": ""
-    }
   },
   {
     "_id": "57ea93d14d7b7e82691e3d88",
@@ -1610,7 +1519,7 @@
     "_layout": "right",
     "_parentId": "57ed02484d7b7e82691e3d96",
     "_type": "component",
-    "body": "<p>Knowing that data is clean is important to ensuring that&nbsp;you have a reliable starting point when working with it and creating new value from it.</p>\n\n<p>Clean data is data that is consistent, free from duplication and ready for machine consumption.</p>\n\n<p>If data is clean, it is easier to combine it with different datasets and gain deeper insights.</p>\n",
+    "body": "<p>Knowing that data is clean gives you have a reliable starting point when working with it.</p>\n\n<p>Clean data is data that is consistent, free from duplication and ready for machine consumption.</p>\n\n<p>If data is clean, it is easier to combine it with different datasets and gain deeper insights.</p>\n",
     "displayTitle": "Revealing the value: what do we mean by clean data?",
     "title": "Revealing the value: what do we mean by clean data?",
     "_isAvailable": true,
@@ -2312,28 +2221,11 @@
     }
   },
   {
-    "_id": "57ed32e34d7b7e82691e3de7",
-    "_layout": "left",
-    "_parentId": "57ed328a4d7b7e82691e3de5",
-    "_type": "component",
-    "body": "<p>Clean data&nbsp;is essential to ensuring&nbsp;that when the data is used, the right conclusions are made.</p>\n\n<p>Publishers should try their best to use data validation when inputting data, however this will never guarantee that the data is completely&nbsp;clean. Human mistakes such as&nbsp;mistyping or incorrect abbreviations are inevitable in data entry, and as data is updated over the years, mistakes can pile up.&nbsp;</p>\n\n<p>To get to grips with data cleaning,&nbsp;download a copy of <a href=\"http://openrefine.org/\">Open Refine</a> and try to clean this dataset as best you can, using the instructional videos to help you.&nbsp;Once you are finished,&nbsp;submit the dataset to your&nbsp;course coordinator for checking.&nbsp;</p>\n",
-    "displayTitle": "Validating and cleaning data",
-    "title": "Validating and cleaning data",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "text",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": ""
-  },
-  {
     "_id": "57ee2cf84d7b7e82691e3df2",
     "_layout": "full",
     "_parentId": "57ea93864d7b7e82691e3d81",
     "_type": "component",
-    "body": "<p>Adding cell formats can help to&nbsp;display data consistently, however it will not validate data entry. Using a combination of cell formats and data input validation is the key to collecting a clean dataset.&nbsp;</p>\n\n<p>The majority of spreadsheet applications contain validation functions. These allow you to set up rules for what values can be entered in a cell. There are normally a variety of sample rules &ndash;&nbsp;such as for dates and number ranges &ndash;&nbsp;but you can also set up a list of limited values that can be selected from.&nbsp;</p>\n\n<p>When setting up validation, don&#39;t forget to give the user useful messages that appear when they go&nbsp;to enter a value and when an invalid value is found.&nbsp;</p>\n\n<p>If you are applying validation rules to existing data then you can also use the<em> circle&nbsp;invalid values</em> function to find those that are already invalid. It is worth noting that Excel can only highlight a certain number, so&nbsp;you should consider using cleaning tools to tidy up existing data (see more on cleaning tools in the following section).&nbsp;</p>\n",
+    "body": "<p>Adding cell formats can help to&nbsp;display data consistently, however it will not validate data entry. Using a combination of cell formats and data input validation is the simplest way to check you are collecting a clean dataset.&nbsp;</p>\n\n<p>The majority of spreadsheet applications contain validation functions. These functions allow you to set up rules for what values can be entered in a cell. There are normally a variety of sample rules &ndash;&nbsp;such as for dates and number ranges &ndash;&nbsp;but you can also set up a list of limited values that can be selected from.&nbsp;</p>\n\n<p>When setting up validation, don&#39;t forget to give the user a useful messages that will appear when they go&nbsp;to enter a value and when an invalid value is found.&nbsp;</p>\n\n<p>If you are applying validation rules to existing data then you can also use the<em> circle&nbsp;invalid values</em> function to find those that are already invalid. It is worth noting that Excel can only highlight a certain number, so&nbsp;you should consider using cleaning tools to tidy up existing data (see more on cleaning tools in the following section).&nbsp;</p>\n",
     "displayTitle": "Validating data",
     "title": "Validating data",
     "_isAvailable": true,
@@ -2374,7 +2266,7 @@
     "_layout": "left",
     "_parentId": "57d9235b4d7b7e82691e3c61",
     "_type": "component",
-    "body": "<p>You maximise the impact of data the more widely if it is shared. In this module, we look at how to publish open data that anyone can&nbsp;<strong>access</strong>,&nbsp;<strong>use</strong>, and&nbsp;<strong>share</strong>.&nbsp;&nbsp;</p>\n\n<p>This module looks&nbsp;at the following key areas:</p>\n\n<ul>\n\t<li>Why, what and where to publish</li>\n\t<li>Data publication formats</li>\n\t<li>The minimal publication checklist</li>\n\t<li>Certifying high quality published open data</li>\n</ul>\n",
+    "body": "<p>The more widely data is shared, the greater the potential impact. In this module, we look at how to publish open data that anyone can&nbsp;<strong>access</strong>,&nbsp;<strong>use</strong>, and&nbsp;<strong>share</strong>.&nbsp;&nbsp;</p>\n\n<p>This module looks&nbsp;at the following key areas:</p>\n\n<ul>\n\t<li>Why, what and where to publish</li>\n\t<li>Data publication formats</li>\n\t<li>The minimal publication checklist</li>\n\t<li>Certifying high quality published open data</li>\n</ul>\n",
     "displayTitle": "Publishing your data",
     "title": "Publishing your data",
     "_isAvailable": true,
@@ -2385,29 +2277,6 @@
       "_isEnabled": true
     },
     "instruction": ""
-  },
-  {
-    "_id": "57d942bf4d7b7e82691e3c83",
-    "_layout": "right",
-    "_parentId": "57d9235b4d7b7e82691e3c61",
-    "_type": "component",
-    "body": "",
-    "displayTitle": " ",
-    "title": " ",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/f64ad121fc8e0250264e5d5f00c90d78cd6271a0.png",
-      "small": "course/en/assets/f64ad121fc8e0250264e5d5f00c90d78cd6271a0.png",
-      "attribution": ""
-    }
   },
   {
     "_id": "57ee3dbf4d7b7e82691e3dfa",
@@ -2431,7 +2300,7 @@
     "_items": [
       {
         "title": "Why publish?",
-        "body": "<p>Publishing data outsources analysis to others, who&#39;s insights&nbsp;can help to inform better decision making.</p>\n\n<p>For example, publishing education data gives people the ability to make more informed decisions about schools for their children. It also helps inform the wider government about the need to improve schools and where investment is needed.&nbsp;</p>\n",
+        "body": "<p>Publishing data can help you engage a community of volunteer&nbsp;analysts&nbsp;whose insights&nbsp;can help to inform decision making.</p>\n\n<p>For example, publishing education data gives people the ability to make more informed decisions about schools for their children. The data&nbsp;also helps government make decisions about school improvement&nbsp;and where investment is needed.&nbsp;</p>\n",
         "_graphic": {
           "src": "course/en/assets/bc405547ea32356032d490290a510a41c2455047.jpg",
           "alt": ""
@@ -2440,7 +2309,7 @@
       },
       {
         "title": "What can you publish?",
-        "body": "<p>Before you publish data you should check that you can legally publish the data.&nbsp;</p>\n\n<p>There are a number of key factors that may prevent you from publishing the data. This includes:</p>\n\n<ul>\n\t<li>not being the data owner (copyright holder)</li>\n\t<li>the data you own contains&nbsp;others&#39; copyrighted data (e.g. location data from google maps)</li>\n\t<li>data that contains&nbsp;personally identifiable information</li>\n\t<li>classified data.</li>\n</ul>\n\n<p>There may also be other local laws and mandates that enforce either the publication or protection of certain types of data. If unsure, it is always best to seek the advice of an appropriate legal representative from your organisation.</p>\n",
+        "body": "<p>Before you publish data you need to check that you can legally publish the data.&nbsp;</p>\n\n<p>There are a number of key factors that may prevent you from publishing the data. This includes:</p>\n\n<ul>\n\t<li>not being the data owner (copyright holder)</li>\n\t<li>the data you own contains&nbsp;others&#39; copyrighted data (e.g. location data from google maps)</li>\n\t<li>data that contains&nbsp;personally identifiable information</li>\n\t<li>classified data.</li>\n</ul>\n\n<p>There may also be other local laws and mandates that enforce either the publication or protection of certain types of data. If unsure, it is always best to seek the advice of an appropriate legal representative from your organisation.</p>\n",
         "_graphic": {
           "src": "course/en/assets/55fdaceae3e61bfad0b68be0efcf8b4e312e1342.jpg",
           "alt": ""
@@ -2449,7 +2318,7 @@
       },
       {
         "title": "Where do you publish?",
-        "body": "<p>If the website infrastructure allows,&nbsp;try to publish data&nbsp;on your organisation&#39;s&nbsp;own&nbsp;website or data portal. This helps to build&nbsp;trust between the organisation and the user or customer.&nbsp;</p>\n\n<p>However, be aware that&nbsp;users may not come to you directly for the data, so it is advisable to also publish the data on other platforms to ensure wide use and reuse.&nbsp;There are no restrictions to the number of places an open dataset can exist.</p>\n\n<p>&nbsp;</p>\n",
+        "body": "<p>If the website&nbsp;allows,&nbsp;try to publish data&nbsp;on your organisation&#39;s&nbsp;own&nbsp;website or data portal. This helps to build&nbsp;trust between the organisation and the user or customer.&nbsp;</p>\n\n<p>However, be aware that&nbsp;users may not come to you directly for the data, so it is advisable to also publish the data on other platforms to ensure wide use and reuse.&nbsp;There are no restrictions to the number of places an open dataset can exist.</p>\n\n<p>&nbsp;</p>\n",
         "_graphic": {
           "src": "course/en/assets/14fad81b7ca38acf03071734b8362c47fd3d3997.jpg",
           "alt": ""
@@ -2733,7 +2602,7 @@
     "_layout": "left",
     "_parentId": "57ee58834d7b7e82691e3e4c",
     "_type": "component",
-    "body": "<p>Choosing the right place to publish data will have a profound effect on the usability and impact of the data.</p>\n\n<p>Where should you try and publish your data? There may be more than one correct answer.</p>\n",
+    "body": "<p>Choosing the right place to publish data can boost the usability and impact of the data.</p>\n\n<p>Where might be the best place(s) to&nbsp;publish your data? There may be more than one correct answer.</p>\n",
     "displayTitle": "Where should you publish your open data?",
     "title": "Where should you publish your open data?",
     "_isAvailable": true,
@@ -3115,7 +2984,7 @@
     "_layout": "left",
     "_parentId": "57ee5adc4d7b7e82691e3e6e",
     "_type": "component",
-    "body": "<p>When publishing open data, it is importing to consider why, what and where you publish. Carefully considering the potential usage of the data will help guide not only what data is published, but in what formats and on what websites.</p>\n\n<p>Regardless of where the data is published, following the basic data publication checklist will help ensure that the data is usable.&nbsp;</p>\n\n<p>Increasing the usability of the data even further can be guided by the ODI&#39;s Open Data Certificates, a free online tool that can offer a quality mark for your data.&nbsp;</p>\n",
+    "body": "<p>When publishing open data, it is important to consider why, what and where you publish. Considering the potential usage of the data will help guide not only what data is published&nbsp;but also the formats and websites you choose.</p>\n\n<p>Regardless of where the data is published, following the basic data publication checklist will help ensure that the data is usable.&nbsp;</p>\n\n<p>Increasing the usability of the data even further can be guided by the ODI&#39;s Open Data Certificates, a free online tool that can offer a quality mark for your data.&nbsp;</p>\n",
     "displayTitle": "Publishing your data",
     "title": "Publishing your data",
     "_isAvailable": true,
@@ -3175,6 +3044,113 @@
     "body": "<p>Specifying the data type for each column or set of cells in a spreadsheet can help you check the data appears correct&nbsp;and format the data for easy use. There are many different data types available that can usually be selected from the&nbsp;<em>cell format</em>&nbsp;menu.&nbsp;</p>\n\n<p>Useful formats include:</p>\n\n<ul>\n\t<li>Numbers</li>\n\t<li>Text</li>\n\t<li>Currency</li>\n\t<li>Dates</li>\n\t<li>Multiple choice</li>\n\t<li>True/False (Yes/No)</li>\n</ul>\n\n<p>The graphic here shows a sample cell format for a date. Sometimes, due to inconsistency between the way dates are entered, excel can fail to recognise these entries as dates.</p>\n\n<p>Using a date format with year first, followed by month and day, means that sorting by date will always be correct, regardless of whether&nbsp;the data is understood to be a date or not.</p>\n",
     "displayTitle": "Data types",
     "title": "Data types",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57f7c9464d7b7e82691e3f0e",
+    "_layout": "right",
+    "_parentId": "57d9233c4d7b7e82691e3c5b",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57f7c9584d7b7e82691e3f0f",
+    "_layout": "right",
+    "_parentId": "57d9235b4d7b7e82691e3c61",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57d929c34d7b7e82691e3c70",
+    "_layout": "left",
+    "_parentId": "57d928564d7b7e82691e3c6d",
+    "_type": "component",
+    "body": "<p>Values contained in a single column should be consistent in their type.&nbsp;For example, in a <em>First name</em>&nbsp;column you would use text, an <em>Age</em>&nbsp;column would&nbsp;contain numbers,&nbsp;a&nbsp;<em>Date of birth&nbsp;</em>should contain dates.&nbsp;&nbsp;</p>\n\n<p>When collecting data, ensure that all your entries are expressed in the same type of value. For example if you have an age column, you should change any text entries to numbers to make sure they match up.&nbsp;In the majority of spreadsheet applications you can enforce the criteria of the data type per column by going to &#39;Validation&#39; from the &#39;Data&#39; button in the menu.</p>\n",
+    "displayTitle": "Data types",
+    "title": "Data types",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Explore each data type below",
+    "_items": [
+      {
+        "title": "Text/String",
+        "body": "<p>This&nbsp;data type is the most flexible and allows any combination of characters to make a sentence.</p>\n\n<p>e.g. <em>Emily,&nbsp;</em><em>2nd Royal Artillery</em></p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Numbers",
+        "body": "<p>Numbers can include whole numbers (otherwise known as&nbsp;&#39;integers&#39;)&nbsp;such as&nbsp;<em>1, 12, 312</em>&nbsp;etc, or decimal numbers, such as&nbsp;<em>1.25, 32.789</em>.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Date",
+        "body": "<p>Picking a consistent format for dates is crucial. You can choose how you want to display it&nbsp;(e.g. 2016-09-14) or use the one built into the spreadsheet application.&nbsp;</p>\n\n<p>As dates can be presented in many different ways, it&nbsp;is recommended that you validate them (check for correctness and consistency)&nbsp;on collection by going to &#39;Data&#39; in the menu bar and choosing &#39;Validation&#39;. However, this does not always work if the&nbsp;American form (MM/DD/YYYY) and&nbsp;British form (DD/MM/YYYY) are used interchangeably - it would be impossible to determine whether&nbsp;the date &#39;04/05/2016&#39; would mean the fourth of May, or fifth of April.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Defined options",
+        "body": "<p>Data types can also be&nbsp;defined options, such as <em>true</em> or <em>false</em>, <em>yes</em> or <em>no</em>, or a limited range of text or numbers.&nbsp;</p>\n\n<p>You can use the validation function&nbsp;to ensure that a user can only enter valid values.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "57ed32e34d7b7e82691e3de7",
+    "_layout": "left",
+    "_parentId": "57ed328a4d7b7e82691e3de5",
+    "_type": "component",
+    "body": "<p>Clean data&nbsp;is simpler to use and helps us draw better&nbsp;conclusions.</p>\n\n<p>Publishers should try their best to use data validation when inputting data.&nbsp;However, this can&#39;t guarantee that the data is completely&nbsp;clean. Human mistakes such as&nbsp;mistyping or incorrect abbreviations are unavoidable in data entry&nbsp;and, as data is updated over the years, mistakes can pile up. With the right tools however, you can quickly get a handle on the data and produce a cleaner, more useful version for your work and the community.</p>\n\n<p>To get to grips with data cleaning,&nbsp;download a copy of <a href=\"http://openrefine.org/\">Open Refine</a> and try to clean <a href=\"https://drive.google.com/file/d/0B1VBoooQ3X5jMjdSRmhfWDBhQzg/view?usp=sharing\">this dataset</a> as best you can, using the instructional videos to help you.&nbsp;Once you are finished,&nbsp;submit the dataset to your&nbsp;course coordinator for checking.&nbsp;</p>\n",
+    "displayTitle": "Validating and cleaning data",
+    "title": "Validating and cleaning data",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
